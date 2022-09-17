@@ -1,0 +1,12 @@
+.PopWindow{
+    top:30%;
+    left: 40%;
+    z-index: 10;
+    width: 20rem;
+    border-radius: 10px;
+    padding:1rem;
+    text-align: center;
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #ffffff;
+    position: fixed;
+}

@@ -1,0 +1,48 @@
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+ /* background-color: rgb(62, 250, 165);*/
+  background-image:url("../public/25501.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+button {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 32px;
+
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+button::after,
+button::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #000;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: translate(-12px, -12px);
+}
+
+button:hover::after {
+  transform: translate(6px, 6px);
+}
+
+button:hover::before {
+  transform: translate(12px, 12px);
+}

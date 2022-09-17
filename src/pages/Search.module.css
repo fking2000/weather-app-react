@@ -1,0 +1,39 @@
+.headName{
+  padding: 2rem;
+ text-decoration-line: underline;
+ text-underline-offset: 2px;
+ font-size: 3rem;
+ color: rgb(0, 0, 0);
+}
+
+  .resultsTitle{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+  }
+  .searchBtn{
+    font: inherit;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  }
+  .searchBtn::after,
+  .searchBtn::before {
+    background: #000;
+
+  }
+  .searchBtn:hover {
+    transform: translate(0px, 0px);
+  }
+  
+  .searchBtn:hover::after {
+    transform: translate(0px, 0px);
+  }
+  
+  .searchBtn:hover::before {
+    transform: translate(0px, 0px);
+  }

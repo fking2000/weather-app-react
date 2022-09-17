@@ -1,0 +1,20 @@
+
+.headName{
+    padding: 2rem;
+   text-decoration-line: underline;
+   text-underline-offset: 2px;
+   font-size: 3rem;
+   color: rgb(0, 0, 0);
+  }
+  .main{
+  display: inline-flex;
+  
+  }
+  .text{
+    
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .panel{
+    margin:3rem;
+  }

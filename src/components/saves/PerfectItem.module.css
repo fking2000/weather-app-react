@@ -1,0 +1,23 @@
+.selectItem{
+    
+    display: flex;
+padding-left:  1rem;
+margin: 10px 0;
+}
+.maintCol{
+    width: 16.67%;
+}
+.nameCol{
+    width: 16.67%; 
+}
+.descCol{
+    width: 16.67%; 
+}
+.tempCol{
+    width: 16.67%; 
+}
+.windCol{
+    width: 16.67%; 
+}
+
+

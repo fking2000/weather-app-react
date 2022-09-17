@@ -1,0 +1,7 @@
+.headName{
+    padding: 2rem;
+   text-decoration-line: underline;
+   text-underline-offset: 2px;
+   font-size: 3rem;
+   color: rgb(0, 0, 0);
+  }

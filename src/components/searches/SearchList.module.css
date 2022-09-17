@@ -1,0 +1,26 @@
+.searchList{
+    width: 65%;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #64ccc7;
+    color:#454747;
+    margin: auto;
+    padding: 5px ;
+    list-style:none ;
+}
+.searchItem{
+    display: flex;
+padding-left:  1rem;
+margin: 10px 0;
+}
+
+.nameCol{
+    width: 27%;
+}
+.countryCol{
+    width:27%;
+}
+.stateCol{
+width:27%;
+
+}

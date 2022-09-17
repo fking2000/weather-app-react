@@ -1,0 +1,33 @@
+.selectedList{
+    width: 65%;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #64ccc7;
+    color:#454747;
+    margin: auto;
+    padding: 5px ;
+    list-style:none ;
+}
+.selectItem{
+    display: flex;
+padding-left:  1rem;
+margin: 10px 0;
+}
+.emptyCol{
+    width: 16.67%;
+}
+.locationCol{
+    width: 16.67%;
+}
+.descCol{
+    width: 16.67%;
+}
+.tempCol{
+    width: 16.67%;
+}
+.windCol{
+    width: 16.67%;
+}
+
+
+

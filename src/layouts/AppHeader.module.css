@@ -1,0 +1,30 @@
+.header{
+  width: 100%;
+    height:5rem;
+    font-size: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#08706b;
+    color: #97d6d3;
+   
+    margin-bottom: 30px;
+}
+.head{
+display: flex;
+}
+.header ul{
+    list-style: none;
+    display:flex;
+}
+.header li{
+    padding: 3rem;
+}
+.header a {
+    text-decoration: none;
+    font-size: 1.5 rem;
+    color:#1dc9c0;
+}
+.header a:hover{
+   color: #97d6d3;
+}

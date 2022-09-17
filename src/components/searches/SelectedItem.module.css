@@ -1,0 +1,35 @@
+.selectItem{
+    
+    display: flex;
+padding-left:  1rem;
+margin: 10px 0;
+}
+.maintCol{
+    width: 16.67%;
+}
+.nameCol{
+    width: 16.67%; 
+}
+.descCol{
+    width: 16.67%; 
+}
+.tempCol{
+    width: 16.67%; 
+}
+.windCol{
+    width: 16.67%; 
+}
+.btnCol{
+    width: 16.67%;
+    margin: 1rem;
+}
+.btn{
+    font: inherit;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin: 0 1rem;
+   background-color: darkblue;
+   
+  }
